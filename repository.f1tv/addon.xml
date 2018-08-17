@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.f1tv" name="F1TV Addon Repository" version="1" provider-name="bbsan2k">
+	<extension point="xbmc.addon.repository" name="F1TV Addon repository">
+		<info compressed="false">https://github.com/bbsan2k/repository.f1tv/raw/master/addons.xml</info>
+		<checksum>https://github.com/bbsan2k/repository.f1tv/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/bbsan2k/repository.f1tv/repository</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>F1TV Addon Repository</summary>
+		<description><description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
