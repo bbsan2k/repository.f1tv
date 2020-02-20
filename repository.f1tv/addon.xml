@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.f1tv" name="F1TV Addon Repository" version="0.0.1" provider-name="BBsan2k">
-	<extension point="xbmc.addon.repository" name="F1TV Addon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">F1TV Addon Repository</summary>
-		<description lang="en">F1TV Addon Repository</description>
-		<genre>sports,tech</genre>
-	</extension>
+<addon id="repository.f1tv" name="repository.f1tv" version="1.0" provider-name="bbsan2k">
+    <extension point="xbmc.addon.repository" name="F1TV Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>F1TV Repo</summary>
+        <description>Repository for F1TV addon</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
