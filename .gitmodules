@@ -1,3 +1,6 @@
 [submodule "plugin.video.f1tv"]
 	path = plugin.video.f1tv
 	url = https://github.com/bbsan2k/plugin.video.f1tv
+[submodule "script.module.cache"]
+	path = script.module.cache
+	url = https://github.com/bbsan2k/script.module.cache
