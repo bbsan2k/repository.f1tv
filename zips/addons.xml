@@ -47,17 +47,17 @@ Can be used as a generic key/blob data store when used without directives
     </extension>
 </addon>
 
-<addon id="repository.f1tv" name="repository.f1tv" version="1.0" provider-name="bbsan2k">
-    <extension point="xbmc.addon.repository" name="F1TV Repo">
+<addon id="repository.f1tv" name="repository.f1tv" version="2.0" provider-name="bbsan2k">
+    <extension point="xbmc.addon.repository" name="F1TV Repo Matrix">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/Matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bbsan2k/repository.f1tv/Matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bbsan2k/repository.f1tv/Matrix/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>F1TV Repo</summary>
-        <description>Repository for F1TV addon</description>
+        <summary>F1TV Repo Matrix</summary>
+        <description>Repository for F1TV addon Matrix</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
